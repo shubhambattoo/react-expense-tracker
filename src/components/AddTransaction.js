@@ -9,7 +9,7 @@ export const AddTransaction = () => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    if(!text || amount) {
+    if (!text || !amount) {
       alert('all fields are required');
       return;
     }
